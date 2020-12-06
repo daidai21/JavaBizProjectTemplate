@@ -1,6 +1,11 @@
 import java.io.Serializable;
 
-public class BaseException extends Exception implements Serializable {
+/**
+ * 
+ * 非RuntimeException必要自己写catch块处理掉。如果不处理，程序将出现编译错误。
+ * RuntimeException不用try catch捕捉将会导致程序运行中断，若用则不会中断。
+ */
+public class BaseException extends RuntimeException implements Serializable {
 
     private static final long serialVersionUID = 8219499818301663828L;
 
