@@ -29,3 +29,7 @@ hs_err_pid*
 .settings/
 target/classes/com/project/demo/
 target/test-classes/
+
+
+# Self Define
+push.sh
