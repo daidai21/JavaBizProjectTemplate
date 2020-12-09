@@ -27,9 +27,6 @@ hs_err_pid*
 .classpath
 .project
 .settings/
-target/classes/com/project/demo/
-target/test-classes/
-
-
-# Self Define
-push.sh
+target/
+git-push.sh
+.idea/
